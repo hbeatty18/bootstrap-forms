@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Disney World Quiz </title>
+</head>
+<body>
+  <h1> The Ultimate Walt Disney World Quiz </h1>
+  <p> Are you an Annual Passholder? Do you have a different Disney graphic tee for every day of the week? Can you quote the safety speech before every ride? If the answer is "yes" to all these questions, then this is the quiz for you! All the answers can be found at <a href="https://en.wikipedia.org/wiki/Walt_Disney_World"> The Walt Disney World Wikipedia page</a>.
+  </p>
+  <div class= "container">
+    <div class= "row">
+      <div class= "col-12">
+        <form>
+
+            <div class="form-group">
+          <label class="form-control-label">What year was Walt Disney World opened?</label>
+          <input type= "text" name="year" id="year" class="form-control-sm">
+        </div>
+<br>
+          <div class="form-group">
+            <label class= "form-control-label">How many employees does Walt Disney World have?</label>
+            <input type="text" name="employees" id="employees" class="form-control-sm">
+          </div>
+<br>
+          <div class="form-group">
+            <label class="form-control-label">Name the four parks and two waterparks. Describe their themes.</label>
+<br>
+             <textarea name="parks" id= "parks" rows="5" class="form-control-lg" ></textarea>
+          </div>
+
+<br>
+          <div class="form-check">
+          <label class="d-block">Which was the first park to open?</label>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label"><input type="radio" name="park" value="EPCOT" checked>EPCOT</label>
+            <label class="form-check-label"><input type="radio" name="park" value="Magic_Kingdom" checked>Magic Kingdom</label>
+            <label class="form-check-label"><input type="radio" name="park" value="Animal_Kingdom" checked>Animal Kingdom</label>
+            <label class="form-check-label"><input type="radio" name="park" value="Hollywood_Studios" checked>Hollywood Studios</label>
+          </div>
+        </div>
+<br>
+          <div class="form-check">
+          <label class="d-block">Which of the following has been a name for what is now known as Disney Springs?</label>
+          <div class="form-check form-check-inline">
+              <label class="form-check-label"><input type="checkbox" name="springs" value="Lake_Buena_Vista_Shopping_Plaza" checked>Lake Buena Vista Shopping Plaza</label>
+              <label class="form-check-label"><input type="checkbox" name="springs" value="Disney_Village_Marketplace" checked>Disney Village Marketplace</label>
+              <label class="form-check-label"><input type="checkbox" name="springs" value="Downtown_Disney" checked>Downtown Disney</label>
+              <label class="form-check-label"><input type="checkbox" name="springs" value="Disney_Commons" checked> Disney Commons</label>
+            </div>
+          </div>
+<br>
+
+          <div class="form-check">
+            <label class="d-block">Which of the following is NOT a former attraction at Walt Disney World?
+            <select name="former" id="former">
+              <option value="Discovery_Island">Discovery Island</option>
+              <option value="Disneys_River_Country">Disney's River Country</option>
+              <option value="Walt_Disney_World_Speedway">Walt Disney World Speedway</option>
+              <option value="Journey_into_Imagination_with_Figment">Journey into Imagination with Figment</option>
+              <option value="DisneyQuest">DisneyQuest</option>
+              <option value="La_Nouba">La Nouba</option>
+            </select>
+          </label>
+        </div>
+<br>
+          <input type="submit" value="Submit">
+          <input type= "reset" value="Reset">
+            </form>
+    </div>
+  </div>
+    </div>
+
+</body>
+</html>
